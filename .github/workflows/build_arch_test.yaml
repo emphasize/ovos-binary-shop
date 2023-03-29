@@ -21,6 +21,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: docker/setup-qemu-action@v2
+        name: Set up QEMU
       - uses: uraimo/run-on-arch-action@v2
         name: Build artifact
         id: build
