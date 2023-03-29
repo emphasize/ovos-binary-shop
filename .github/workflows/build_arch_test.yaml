@@ -1,0 +1,42 @@
+name: OVOS PKGUILDS
+on:
+  workflow_dispatch:
+
+jobs:
+  pkgbuild:
+    runs-on: ubuntu-latest
+    container:
+      image: manjarolinux/base:latest
+    steps:
+      - name: Install build Dependencies
+        run: |
+          echo "Y" | sudo pacman -Sy pkgfile namcap python-pip git
+          pip install pypi2pkgbuild
+          pkgfile --update
+      - name: gen PKGBUILDS
+        run: |
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-utils
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-config
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-backend-client
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-plugin-manager
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-workshop
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-bus
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-gui
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-audio
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-listener
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-dinkum-listener
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-core
+      - uses: actions/checkout@v3
+        with:
+          ref: dev
+      - name: Cleanup
+        run: |
+          mv /tmp/build/python-* .
+          sudo rm -rf python-*/src/_tmpenv
+          ls
+          git config --global --add safe.directory /__w/ovos-binary-shop/ovos-binary-shop
+      - name: Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: pkgbuild
+          add: 'python-* --force'

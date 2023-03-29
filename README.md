@@ -10,8 +10,14 @@ see releases for downloadable files
 - [tflite-runtime aarch64](https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python_3.10_aarch64.whl)
 
 
-
 ## Python 3.11
 
 - [tflite-runtime aarch64/armv6l/armv7l/x86_64](https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python3.11_linux_aarch64%2Farmv6l%2Farmv7l%2Fx86_64.whl)
 - [onnxruntime-x86_64.whl ](https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python3.11_linux_aarch64%2Farmv6l%2Farmv7l%2Fx86_64.whl)
+
+
+### PKGBUILDS
+
+PKGBUILDS generated via https://github.com/anntzer/pypi2pkgbuild
+
+each directory in this repo is a package
