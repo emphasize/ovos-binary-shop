@@ -7,4 +7,10 @@ see releases for downloadable files
 
 ## Python 3.10
 
-tflite-runtime - https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python_3.10_aarch64.whl
+- [tflite-runtime](https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python_3.10_aarch64.whl)
+
+
+
+## Python 3.11
+
+- [tflite-runtime](https://github.com/OpenVoiceOS/ovos-binary-shop/releases/tag/tflite-runtime_python3.11_linux_aarch64%2Farmv6l%2Farmv7l%2Fx86_64.whl)
