@@ -14,13 +14,11 @@ jobs:
         include:
           - arch: aarch64
             distro: ubuntu18.04
-          - arch: ppc64le
-            distro: alpine_latest
-          - arch: s390x
-            distro: fedora_latest
-          - arch: none
-            distro: none
-            base_image: riscv64/busybox
+          - arch: armv7
+            distro: bullseye
+          - arch: armv6
+            distro: bullseye
+
     steps:
       - uses: actions/checkout@v3
       - uses: uraimo/run-on-arch-action@v2
