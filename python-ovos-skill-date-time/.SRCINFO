@@ -1,0 +1,24 @@
+pkgbase = python-ovos-skill-date-time
+	pkgdesc = ovos skill plugin
+	pkgver = 0.2.2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/skill-ovos-date-time
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-geocoder
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-pytz
+	depends = python-timezonefinder
+	depends = python-tzlocal
+	noextract = ovos_skill_date_time-0.2.2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/0c/e5/dcd20269b93f3e779746e27f403be8b806217db6ba66b5351c4e6988a18d/ovos_skill_date_time-0.2.2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 2f8e54c4e8bf9f5ef6f5d14510b46af3
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-skill-date-time
