@@ -11,7 +11,7 @@ pkgdesc='OpenVoiceOS'"'"'s multilingual text parsing and formatting library'
 arch=(any)
 url=https://github.com/OpenVoiceOS/ovos-lingua-franca
 license=(Apache)
-depends=(python python-colour python-dateutil python-quebra-frases python-rapidfuzz python-webcolors)
+depends=(python python-colour python-python-dateutil python-quebra-frases python-rapidfuzz python-webcolors)
 ## EXTRA_DEPENDS ##
 makedepends=(python-pip)
 checkdepends=()
