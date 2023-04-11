@@ -1,0 +1,27 @@
+pkgbase = python-skill-wikipedia-for-humans-git
+	pkgdesc = mycroft/ovos wikipedia skill plugin
+	pkgver = 0.2.2.r13.gae92058
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-wikipedia
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-neon-solver-wikipedia-plugin
+	depends = python-neon-solvers
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-wikipedia-for-humans
+	depends = python-requests
+	provides = python-skill-wikipedia-for-humans
+	conflicts = python-skill-wikipedia-for-humans
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-wikipedia
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = 0ba5044c64ef53cb0189c9546081e228
+
+pkgname = python-skill-wikipedia-for-humans-git

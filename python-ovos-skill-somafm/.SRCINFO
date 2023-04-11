@@ -1,0 +1,22 @@
+pkgbase = python-ovos-skill-somafm
+	pkgdesc = ovos somafm skill plugin
+	pkgver = 0.0.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/skill-ovos-somafm
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-common-play
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-radiosoma
+	noextract = ovos_skill_somafm-0.0.1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/af/b0/97c6cbdb024a6a63d6c92846995ffb56190d40c1d4f14897137c39309d9b/ovos_skill_somafm-0.0.1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 1ac69b908b2d5f7c72d3dbe058646196
+	md5sums = 31de8f44bc100290cc57a2aad82335da
+
+pkgname = python-ovos-skill-somafm

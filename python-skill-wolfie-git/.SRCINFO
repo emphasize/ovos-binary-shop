@@ -1,0 +1,25 @@
+pkgbase = python-skill-wolfie-git
+	pkgdesc = mycroft/ovos wolfram alpha skill plugin
+	pkgver = 0.1.r11.gb8794ca
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-wolfie
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-neon-solver-wolfram-alpha-plugin
+	depends = python-neon-solvers
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	provides = python-skill-wolfie
+	conflicts = python-skill-wolfie
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-wolfie
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = d56dcfd5a86ceb6d2558553029d31302
+
+pkgname = python-skill-wolfie-git

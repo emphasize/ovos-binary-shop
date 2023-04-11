@@ -1,0 +1,24 @@
+pkgbase = python-skill-youtube-music-git
+	pkgdesc = ovos common play youtube music skill plugin
+	pkgver = r9.3a4f52d
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-youtube-music
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-workshop
+	depends = python-tutubo
+	provides = python-skill-youtube-music
+	conflicts = python-skill-youtube-music
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-youtube-music
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = d58e539155262e617b64b12018014cf6
+
+pkgname = python-skill-youtube-music-git

@@ -1,0 +1,25 @@
+pkgbase = python-skill-bandcamp-git
+	pkgdesc = ovos common play bandcamp skill plugin
+	pkgver = 0.3.1.r27.gf4d2e67
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-bandcamp
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-common-play
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-py-bandcamp
+	provides = python-skill-bandcamp
+	conflicts = python-skill-bandcamp
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-bandcamp
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = 2e32cb70d599ff4cf5e6c6ac8efa3c22
+
+pkgname = python-skill-bandcamp-git

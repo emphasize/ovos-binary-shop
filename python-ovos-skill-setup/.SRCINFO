@@ -1,0 +1,23 @@
+pkgbase = python-ovos-skill-setup
+	pkgdesc = OVOS skill plugin
+	pkgver = 0.0.2a5
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/skill-ovos-setup
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-backend-client
+	depends = python-ovos-phal-plugin-system
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	noextract = ovos_skill_setup-0.0.2a5-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/c8/83/48032a3841999203f5f9f394a4c4614de39931ec738839fff6cc21e1c188/ovos_skill_setup-0.0.2a5-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 46612b29f27741ee4410b10eda1d446a
+	md5sums = 175792518e4ac015ab6696d16c4f607e
+
+pkgname = python-ovos-skill-setup

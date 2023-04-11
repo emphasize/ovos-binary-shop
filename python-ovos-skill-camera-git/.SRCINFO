@@ -1,0 +1,23 @@
+pkgbase = python-ovos-skill-camera-git
+	pkgdesc = OVOS skill plugin
+	pkgver = r37.b0a33fd
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-camera
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	provides = python-ovos-skill-camera
+	conflicts = python-ovos-skill-camera
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-camera
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-skill-camera-git

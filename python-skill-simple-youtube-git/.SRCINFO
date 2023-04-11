@@ -1,0 +1,26 @@
+pkgbase = python-skill-simple-youtube-git
+	pkgdesc = ovos common play youtube skill plugin
+	pkgver = 0.2.r39.g7de1a91
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-youtube
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-common-play
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-tutubo
+	depends = python-youtube-searcher
+	provides = python-skill-simple-youtube
+	conflicts = python-skill-simple-youtube
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-youtube
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = d58e539155262e617b64b12018014cf6
+
+pkgname = python-skill-simple-youtube-git

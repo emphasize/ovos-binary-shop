@@ -1,0 +1,25 @@
+pkgbase = python-skill-ddg-git
+	pkgdesc = mycroft/ovos duck duck go skill plugin
+	pkgver = V0.0.1.r1.g0469d6f
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/skill-ovos-ddg
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-neon-solver-ddg-plugin
+	depends = python-neon-solvers
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	provides = python-skill-ddg
+	conflicts = python-skill-ddg
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/skill-ovos-ddg
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = 8cdc31a31975edbfc1d014f8f801b0af
+
+pkgname = python-skill-ddg-git

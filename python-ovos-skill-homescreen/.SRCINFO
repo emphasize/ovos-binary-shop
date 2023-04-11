@@ -1,0 +1,24 @@
+pkgbase = python-ovos-skill-homescreen
+	pkgdesc = OVOS skill plugin
+	pkgver = 0.0.2a11
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/skill-ovos-homescreen
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-lingua-franca
+	depends = python-ovos-phal-plugin-wallpaper-manager
+	depends = python-ovos-skills-manager
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-requests
+	noextract = ovos_skill_homescreen-0.0.2a11-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/f7/cd/2d9d61fa7d091fb1ae4642b667028c1cfdc682feca9f835d1d6c05aaa9df/ovos_skill_homescreen-0.0.2a11-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 42452217b812ac5f5224000757da775a
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-skill-homescreen
