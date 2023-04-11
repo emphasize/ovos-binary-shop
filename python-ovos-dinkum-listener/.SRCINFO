@@ -1,0 +1,23 @@
+pkgbase = python-ovos-dinkum-listener
+	pkgdesc = ovos-core listener daemon client
+	pkgver = 0.0.2a2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-dinkum-listener
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-bus-client
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	depends = python-pyalsaaudio
+	depends = python-sdnotify
+	noextract = ovos_dinkum_listener-0.0.2a2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/20/22/54ccf374209c26f396caed7560e3bedb0c244bdad5879a461871a8ea9858/ovos_dinkum_listener-0.0.2a2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 219a23b52a17835315d6faf78395d6c3
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-dinkum-listener

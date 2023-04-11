@@ -1,0 +1,11 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/tmp/pip-build-env-3f4_kgti/normal/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Linux - 5.15.0-1035-azure - x86_64
+...

@@ -1,0 +1,19 @@
+pkgbase = python-pyee
+	pkgdesc = A port of node.js's EventEmitter to python.
+	pkgver = 9.0.4
+	pkgrel = 00
+	url = https://github.com/jfhbrook/pyee
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	depends = python
+	depends = python-typing_extensions
+	noextract = pyee-9.0.4-py2.py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/c7/54/10695d113f03688d79d24bbd7eca30b0e386cbc6d2743ffb68dcae131bf6/pyee-9.0.4-py2.py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 617259dbf5d7da2524852319b2f2c6d0
+	md5sums = c2e10c89324b62c43b1b240b2c70dbda
+
+pkgname = python-pyee

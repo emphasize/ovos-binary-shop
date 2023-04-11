@@ -1,0 +1,18 @@
+pkgbase = python-webcolors
+	pkgdesc = A library for working with the color formats defined by HTML and CSS.
+	pkgver = 1.13
+	pkgrel = 00
+	url = https://pypi.org/project/webcolors/
+	arch = any
+	license = BSD
+	makedepends = python-pip
+	depends = python
+	noextract = webcolors-1.13-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/d5/e1/3e9013159b4cbb71df9bd7611cbf90dc2c621c8aeeb677fc41dad72f2261/webcolors-1.13-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = d9e9ac7c1da7a2b18975265cf0a953ac
+	md5sums = 702b1ef12cf66832a88f24c8f2ee9c19
+
+pkgname = python-webcolors

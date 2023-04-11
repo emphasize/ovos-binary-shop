@@ -1,0 +1,19 @@
+pkgbase = python-rapidfuzz
+	pkgdesc = rapid fuzzy string matching
+	pkgver = 2.15.1
+	pkgrel = 00
+	url = https://github.com/maxbachmann/RapidFuzz
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = cython
+	depends = python
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/44/19/a20bd17379cca3e0a63590a6473ecf6cdaa8351688de775afefffc701a79/rapidfuzz-2.15.1.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = c9481713854441b6c2f6ed930f427e7c
+	md5sums = dcd1023081943827dd63f01dc3fda218
+
+pkgname = python-rapidfuzz

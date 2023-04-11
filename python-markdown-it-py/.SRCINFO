@@ -1,0 +1,20 @@
+pkgbase = python-markdown-it-py
+	pkgdesc = Python port of markdown-it. Markdown parsing, done right!
+	pkgver = 2.2.0
+	pkgrel = 00
+	url = https://pypi.org/project/markdown-it-py/
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	depends = python
+	depends = python-mdurl
+	depends = python-typing_extensions
+	noextract = markdown_it_py-2.2.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/bf/25/2d88e8feee8e055d015343f9b86e370a1ccbec546f2865c98397aaef24af/markdown_it_py-2.2.0-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 257e16c6e8bdb996e1fd2fd4e6d84cc2
+	md5sums = a38a1697260a7ad7bf29f44b362db1fc
+
+pkgname = python-markdown-it-py

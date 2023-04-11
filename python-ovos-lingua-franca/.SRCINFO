@@ -1,0 +1,23 @@
+pkgbase = python-ovos-lingua-franca
+	pkgdesc = OpenVoiceOS's multilingual text parsing and formatting library
+	pkgver = 0.4.8a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-lingua-franca
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-colour
+	depends = python-dateutil
+	depends = python-quebra-frases
+	depends = python-rapidfuzz
+	depends = python-webcolors
+	noextract = ovos_lingua_franca-0.4.8a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/4f/7c/a6f3d994892f0fad4da412bf647c9f0df7f98e9a967f93754ca448a8858b/ovos_lingua_franca-0.4.8a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 8dc05ab4ba95d718ccd619f22c975491
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-lingua-franca

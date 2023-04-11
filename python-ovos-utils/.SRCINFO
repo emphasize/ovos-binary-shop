@@ -1,0 +1,24 @@
+pkgbase = python-ovos-utils
+	pkgdesc = collection of simple utilities for use across the mycroft ecosystem
+	pkgver = 0.0.31a7
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos_utils
+	arch = any
+	license = custom:Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-json-database
+	depends = python-kthread
+	depends = python-pexpect
+	depends = python-pyee
+	depends = python-requests
+	depends = python-watchdog
+	noextract = ovos_utils-0.0.31a7-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/2b/90/0b46ecf3f66e5fce07df5004933f2b9424d5216d41069f0378d6eb039706/ovos_utils-0.0.31a7-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 8580a48f588a43a6b2d40a61578e6bd0
+	md5sums = b1e01b26bacfc2232046c90a330332b3
+
+pkgname = python-ovos-utils
