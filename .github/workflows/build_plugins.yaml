@@ -1,0 +1,51 @@
+name: Plugin PKGUILDS
+on:
+  workflow_dispatch:
+
+jobs:
+  pkgbuild:
+    runs-on: ubuntu-latest
+    container:
+      image: manjarolinux/base:latest
+    steps:
+      - name: Install build Dependencies
+        run: |
+          echo "Y" | sudo pacman -Sy pkgfile namcap python-pip git
+          pip install pypi2pkgbuild
+          pkgfile --update
+      - name: gen PKGBUILDS
+        run: |
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-vosk
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-server
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-server
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-mimic
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-mimic2
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-mimic3
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-mimic3-server
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-pocketsphinx
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-precise
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-precise-lite
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-vad-plugin-webrtcvad 
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-vad-plugin-silero
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos_plugin_common_play
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-youtube-plugin
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-m3u-plugin
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-rss-plugin
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-files-plugin
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-news-plugin
+      - uses: actions/checkout@v3
+        with:
+          ref: dev
+      - name: Cleanup
+        run: |
+          (cd /tmp/build && tar c .) | (cd . && tar xf -)
+          sudo rm -rf python-*/src
+          sudo rm -rf python-*/*.whl
+          sudo rm -rf python-*/*.pkg.tar.zst
+          ls
+          git config --global --add safe.directory /__w/ovos-binary-shop/ovos-binary-shop
+      - name: Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: pkgbuild
+          add: 'python-* --force'
