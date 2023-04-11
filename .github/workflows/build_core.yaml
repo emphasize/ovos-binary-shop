@@ -1,5 +1,6 @@
 name: OVOS PKGUILDS
 on:
+  push:
   workflow_dispatch:
 
 jobs:
@@ -15,15 +16,14 @@ jobs:
           pkgfile --update
       - name: gen PKGBUILDS
         run: |
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-core
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-core
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-bus
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-gui
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-audio
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-listener
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-audio
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-listener
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-dinkum-listener
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skills-manager
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos_bus_client
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos_PHAL
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-lingua-franca
       - uses: actions/checkout@v3
         with:

@@ -16,6 +16,7 @@ jobs:
           pkgfile --update
       - name: gen PKGBUILDS
         run: |
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos_PHAL
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-phal-plugin-connectivity-events
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-PHAL-plugin-wallpaper-manager
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-PHAL-plugin-brightness-control-rpi
