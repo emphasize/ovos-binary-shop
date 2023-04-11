@@ -16,6 +16,17 @@ jobs:
           pkgfile --update
       - name: gen PKGBUILDS
         run: |
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-weather
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-tunein
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-wikipedia
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-news
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-ddg
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-camera
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-bandcamp
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-youtube
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-youtube-music
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-wolfie
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/skill-ovos-soundcloud
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-volume
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-fallback-unknown
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-stop
@@ -28,18 +39,6 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-setup
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-somafm
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-homescreen
-          
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-weather
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-tunein
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-wikipedia
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-news
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-ddg
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-camera
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-bandcamp
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-youtube
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-youtube-music
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-wolfie
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-skill-soundcloud
 
       - uses: actions/checkout@v3
         with:
