@@ -1,0 +1,20 @@
+pkgbase = python-ovos-phal-plugin-ipgeo
+	pkgdesc = A PHAL plugin for mycroft
+	pkgver = 0.0.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-PHAL-plugin-ipgeo
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	noextract = ovos_phal_plugin_ipgeo-0.0.1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/6c/5d/5de3f5654aad35d055982b6ebf9eb8c9c29bc6e6de25810835d145f1be3d/ovos_phal_plugin_ipgeo-0.0.1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = a14c93f76d161c15d7fd5b11c85683ee
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-phal-plugin-ipgeo

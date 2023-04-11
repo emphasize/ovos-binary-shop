@@ -1,0 +1,21 @@
+pkgbase = python-neon-skill-alerts
+	pkgver = 1.4.0
+	pkgrel = 00
+	url = https://github.com/NeonGeckoCom/skill-alerts
+	arch = any
+	license = custom:BSD-3-Clause
+	makedepends = python-pip
+	depends = python
+	depends = python-combo-lock
+	depends = python-json-database
+	depends = python-neon-utils
+	depends = python-ovos-utils
+	noextract = neon_skill_alerts-1.4.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/fd/2c/d4904b3d00937716e6cae36d52f2eb81b07e7baeeb9bd01407f1d81850b2/neon_skill_alerts-1.4.0-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 189ac6ac107e729a3d090e53efbe2b73
+	md5sums = 714c92f4075241d2f6a58035f06fc164
+
+pkgname = python-neon-skill-alerts

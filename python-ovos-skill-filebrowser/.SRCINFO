@@ -1,0 +1,21 @@
+pkgbase = python-ovos-skill-filebrowser
+	pkgdesc = OVOS file browser skill plugin
+	pkgver = 0.0.3a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/skill-ovos-filebrowser
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-common-play
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	noextract = ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/1f/27/b428f45dded390157ee1134b093a883658e8db10dd12fc6a1b1309b996b1/ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = bf1da77e55d1f864164a8946944ca7e3
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-skill-filebrowser

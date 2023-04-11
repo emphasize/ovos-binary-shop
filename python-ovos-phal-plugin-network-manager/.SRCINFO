@@ -1,0 +1,22 @@
+pkgbase = python-ovos-phal-plugin-network-manager
+	pkgdesc = Network Manager plugin for OpenVoiceOS hardware abstraction layer
+	pkgver = 1.0.1a2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-PHAL-plugin-network-manager
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-dbus-next
+	depends = python-mycroft-messagebus-client
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	noextract = ovos_PHAL_plugin_network_manager-1.0.1a2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/fa/f8/81221759f72754ceeaeba9397e111683b412eb9aa60426109c00d41593bc/ovos_PHAL_plugin_network_manager-1.0.1a2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = ca426ce10cac3487fe06432ddad17721
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-phal-plugin-network-manager

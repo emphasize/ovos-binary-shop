@@ -1,0 +1,21 @@
+pkgbase = python-ovos-phal-plugin-color-scheme-manager
+	pkgdesc = Color scheme manager plugin for OpenVoiceOS hardware abstraction layer
+	pkgver = 1.0.1a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-PHAL-plugin-color-scheme-manager
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-mycroft-messagebus-client
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	noextract = ovos_PHAL_plugin_color_scheme_manager-1.0.1a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/9e/a9/467be989f6e53036b92641f63960b70bc29e83f4ec5236d8fa17e0ee1ecd/ovos_PHAL_plugin_color_scheme_manager-1.0.1a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 521e2f74486f753522e02e85f43341b7
+	md5sums = 86d3f3a95c324c9479bd8986968f4327
+
+pkgname = python-ovos-phal-plugin-color-scheme-manager

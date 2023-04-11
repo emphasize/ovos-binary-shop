@@ -1,0 +1,21 @@
+pkgbase = python-ovos-phal-plugin-system
+	pkgdesc = A plugin for OpenVoiceOS hardware abstraction layer
+	pkgver = 0.0.4a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-PHAL-plugin-system
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-config
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	noextract = ovos_PHAL_plugin_system-0.0.4a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/67/05/6eeb82e7e9e420aafe72786f92ceb6c52b2df958ac3e9da9e9f38506407e/ovos_PHAL_plugin_system-0.0.4a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 80e308e68eb6502e2f9182fd349ed7a0
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-phal-plugin-system

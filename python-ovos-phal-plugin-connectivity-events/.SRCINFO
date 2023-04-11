@@ -1,0 +1,19 @@
+pkgbase = python-ovos-phal-plugin-connectivity-events
+	pkgdesc = A PHAL plugin for mycroft/ovos/neon
+	pkgver = 0.0.2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-PHAL-plugin-connectivity-events
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	noextract = ovos_phal_plugin_connectivity_events-0.0.2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/17/6d/51bab340b85c72a9880c1861bf6c21cf114fdfdde771426c76541055ef9a/ovos_phal_plugin_connectivity_events-0.0.2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = ddb0378976b496c74b436fdc7906001f
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-phal-plugin-connectivity-events
