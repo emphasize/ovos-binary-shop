@@ -1,5 +1,6 @@
 name: Plugin PKGUILDS
 on:
+  push:
   workflow_dispatch:
 
 jobs:
