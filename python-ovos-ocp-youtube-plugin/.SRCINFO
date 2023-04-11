@@ -1,0 +1,22 @@
+pkgbase = python-ovos-ocp-youtube-plugin
+	pkgdesc = OCP youtube stream extractor plugin
+	pkgver = 0.0.2a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ocp-youtube-plugin
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-common-play
+	depends = python-tutubo
+	depends = python-yt-dlp
+	depends = python-requests
+	noextract = ovos_ocp_youtube_plugin-0.0.2a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/67/bd/20a42754b2dcf459c7051179356d9e3bc6d13ee4b2c8a9155c733dabfb18/ovos_ocp_youtube_plugin-0.0.2a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 21d2956fe7425074418f18914c137a90
+	md5sums = d58e539155262e617b64b12018014cf6
+
+pkgname = python-ovos-ocp-youtube-plugin

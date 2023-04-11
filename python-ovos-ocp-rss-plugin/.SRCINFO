@@ -1,0 +1,20 @@
+pkgbase = python-ovos-ocp-rss-plugin
+	pkgdesc = OCP rss feed stream extractor plugin
+	pkgver = 0.0.2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-feedparser
+	depends = python-ovos-plugin-common-play
+	noextract = ovos_ocp_rss_plugin-0.0.2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/d2/91/7c8b0099497d1dd61b4e2a68bf8d1e0d5cab187b536748001a6ac1151a40/ovos_ocp_rss_plugin-0.0.2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 701aa46ae521f5d23b6e94065d861eae
+	md5sums = 9d420cc7b7693a7db7bf394ac0f197a5
+
+pkgname = python-ovos-ocp-rss-plugin
