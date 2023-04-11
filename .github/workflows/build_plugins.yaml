@@ -20,7 +20,7 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-whispercpp
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-pocketsphinx
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-selene
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-privox
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-stt-plugin-privox
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-whisper-tflite
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-whisper
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-stt-plugin-deepgram
@@ -40,6 +40,7 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-polly
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-voicerss
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-tts-plugin-responsivevoice
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre git+https://github.com/OpenVoiceOS/ovos-tts-plugin-marytts
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-pocketsphinx
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-precise
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-precise-lite
