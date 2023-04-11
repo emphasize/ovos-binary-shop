@@ -31,7 +31,9 @@ jobs:
       - name: Cleanup
         run: |
           mv /tmp/build/python-* .
-          sudo rm -rf python-*/src/_tmpenv
+          sudo rm -rf python-*/src
+          sudo rm -rf python-*/*.whl
+          sudo rm -rf python-*/*.pkg.tar.zst
           ls
           git config --global --add safe.directory /__w/ovos-binary-shop/ovos-binary-shop
       - name: Commit
