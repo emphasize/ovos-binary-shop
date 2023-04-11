@@ -1,0 +1,20 @@
+pkgbase = python-ovos-vad-plugin-silero
+	pkgdesc = silero VAD plugin for OpenVoiceOS
+	pkgver = 0.0.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-vad-plugin-silero
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-onnxruntime
+	depends = python-ovos-plugin-manager
+	noextract = ovos_vad_plugin_silero-0.0.1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/e3/6f/76a5bb391b94e4fd00cf3b4de941250582cf4c375ca844e79700e24b961e/ovos_vad_plugin_silero-0.0.1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = c1741f518511e7b89583ad94791fc08b
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-vad-plugin-silero
