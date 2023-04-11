@@ -5,13 +5,13 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-core
 epoch=
-pkgver=0.0.8a1
+pkgver=0.0.8a2
 pkgrel=00
 pkgdesc='mycroft-core packaged as a library'
 arch=(any)
 url=https://github.com/OpenVoiceOS/ovos-core
 license=(Apache)
-depends=(python python-combo-lock python-mycroft-messagebus-client python-ovos-backend-client python-ovos-config python-ovos-lingua-franca python-ovos-plugin-manager python-ovos-utils python-ovos-workshop python-padacioso python-python-dateutil python-requests python-watchdog)
+depends=(python python-combo-lock python-ovos-backend-client python-ovos-bus-client python-ovos-config python-ovos-lingua-franca python-ovos-plugin-manager python-ovos-utils python-ovos-workshop python-padacioso python-python-dateutil python-requests python-watchdog)
 depends+=(python-setuptools)
 makedepends=(python-pip)
 checkdepends=()
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/ef/34/4eb8a798cd369c8b04a66371080babdf14d8845c58fc37043aa7bff4ad86/ovos_core-0.0.8a1-py3-none-any.whl)
-md5sums+=(4d928b7b2c7db64a9b7598d64b2e9c9a)
-noextract+=(ovos_core-0.0.8a1-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/af/69/605491b205512b775249625b40436a23a95c05d6a1a3157fbedf4937f19a/ovos_core-0.0.8a2-py3-none-any.whl)
+md5sums+=(769f980dc897ed85a1d33e64e60e9d5b)
+noextract+=(ovos_core-0.0.8a2-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(716a6805caa0b351a3f9443d428891e8)
 

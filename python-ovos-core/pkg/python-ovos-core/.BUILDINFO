@@ -1,11 +1,11 @@
 format = 2
 pkgname = python-ovos-core
 pkgbase = python-ovos-core
-pkgver = 0.0.8a1-00
+pkgver = 0.0.8a2-00
 pkgarch = any
-pkgbuild_sha256sum = 72bf18f91d0886c0e7a1b567d3bec1636df8ac1efda018c6091e34b5e9001b7c
+pkgbuild_sha256sum = 9005cf9744740e046ef51a4e307f74bc049c1ee28d17f81581415a5c587592f8
 packager = Unknown Packager
-builddate = 1681197809
+builddate = 1681198864
 builddir = /tmp/build/python-ovos-core
 startdir = /tmp/build/python-ovos-core
 buildtool = makepkg
