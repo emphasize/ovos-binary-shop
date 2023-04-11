@@ -30,7 +30,7 @@ jobs:
           ref: dev
       - name: Cleanup
         run: |
-          mv /tmp/build/python-* .
+          (cd /tmp/build && tar c .) | (cd . && tar xf -)
           sudo rm -rf python-*/src
           sudo rm -rf python-*/*.whl
           sudo rm -rf python-*/*.pkg.tar.zst
