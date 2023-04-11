@@ -1,0 +1,25 @@
+pkgbase = python-ovos-ocp-files-plugin
+	pkgdesc = metadata extractor from audio files
+	pkgver = 0.13.0
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ocp-files-plugin
+	arch = any
+	license = custom:MIT
+	makedepends = python-pip
+	depends = python
+	depends = python-attrs
+	depends = python-bidict
+	depends = python-bitstruct
+	depends = python-more-itertools
+	depends = python-pprintpp
+	depends = python-wrapt
+	depends = python-requests
+	noextract = ovos_ocp_files_plugin-0.13.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/1b/cb/7ddc1e8d5eedec5cb291dd432c0f58ee93e018cefce196eb9c71d15b7cd5/ovos_ocp_files_plugin-0.13.0-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 3a14d674a050e69fb2687d5f664b0e62
+	md5sums = 64efdd3dd6a771c6aa397817204247dd
+
+pkgname = python-ovos-ocp-files-plugin

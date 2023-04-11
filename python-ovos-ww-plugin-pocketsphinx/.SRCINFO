@@ -1,0 +1,22 @@
+pkgbase = python-ovos-ww-plugin-pocketsphinx
+	pkgdesc = A wake word plugin for OpenVoiceOS
+	pkgver = 0.1.3
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ww-plugin-pocketsphinx
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-phoneme-guesser
+	depends = python-pocketsphinx
+	depends = python-speechrecognition
+	noextract = ovos_ww_plugin_pocketsphinx-0.1.3-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/d2/24/3927b95ab75240fecaa62779ef436dd17b85cb96daaea19fb4af5cba8265/ovos_ww_plugin_pocketsphinx-0.1.3-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 70852cf9403701f0899eee0333fab848
+	md5sums = 045edd5501b7c33e6848b421aa2d9e1e
+
+pkgname = python-ovos-ww-plugin-pocketsphinx

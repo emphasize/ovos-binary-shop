@@ -1,0 +1,19 @@
+pkgbase = python-ovos-tts-plugin-mimic3
+	pkgdesc = Text to speech plugin for OpenVoiceOS using Mimic3
+	pkgver = 0.0.0
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-mimic3
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-mycroft-mimic3-tts
+	noextract = ovos_tts_plugin_mimic3-0.0.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/e9/ce/e69a34c8d4b72d5147d72347206351063ee9cb5dfc22204e9816580a4c5d/ovos_tts_plugin_mimic3-0.0.0-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = b10f5e790480ab229047a561e0e8b9fb
+	md5sums = eb1e647870add0502f8f010b19de32af
+
+pkgname = python-ovos-tts-plugin-mimic3

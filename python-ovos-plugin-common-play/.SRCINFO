@@ -1,0 +1,26 @@
+pkgbase = python-ovos-plugin-common-play
+	pkgdesc = OVOS common play audio service adapter plugin
+	pkgver = 0.0.5a6
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-dbus-next
+	depends = python-ovos-audio-plugin-simple
+	depends = python-ovos-bus-client
+	depends = python-ovos-ocp-files-plugin
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	depends = python-ovos-workshop
+	depends = python-padacioso
+	noextract = ovos_plugin_common_play-0.0.5a6-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/ff/dc/9deee7b1a32a58d5b2e1ce214377a3a32bfe5821da2ccc5edc47f16ffe25/ovos_plugin_common_play-0.0.5a6-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 6f76e79bb4191ca64f33ffadafe41692
+	md5sums = 045edd5501b7c33e6848b421aa2d9e1e
+
+pkgname = python-ovos-plugin-common-play
