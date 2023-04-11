@@ -1,0 +1,22 @@
+pkgbase = python-ovos-stt-plugin-vosk
+	pkgdesc = A vosk stt plugin for mycroft
+	pkgver = 0.2.0a1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-vosk
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-skill-installer
+	depends = python-speechrecognition
+	depends = python-vosk
+	noextract = ovos_stt_plugin_vosk-0.2.0a1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/03/46/4ba5874e2a8c0bf495f6aa1eb90e7bb4adc6ee69e983456c1dbd066a110e/ovos_stt_plugin_vosk-0.2.0a1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 548c2d9ba5a1a8ecf6e77e969119bcc0
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-vosk

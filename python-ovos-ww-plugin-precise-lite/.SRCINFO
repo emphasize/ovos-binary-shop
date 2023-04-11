@@ -1,0 +1,22 @@
+pkgbase = python-ovos-ww-plugin-precise-lite
+	pkgdesc = A wake word plugin for OpenVoiceOS
+	pkgver = 0.1.2a3
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ww-plugin-precise-lite
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	depends = python-precise-lite-runner
+	depends = python-requests
+	noextract = ovos_ww_plugin_precise_lite-0.1.2a3-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/f5/32/0955dab034459035f14343d78cf7c03517449209a8b8dfa9a2604937cf76/ovos_ww_plugin_precise_lite-0.1.2a3-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 2c66df4ac48ff939ee64b6d3ddaed0b5
+	md5sums = 045edd5501b7c33e6848b421aa2d9e1e
+
+pkgname = python-ovos-ww-plugin-precise-lite
