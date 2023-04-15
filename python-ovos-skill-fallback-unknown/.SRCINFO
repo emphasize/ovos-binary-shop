@@ -1,17 +1,17 @@
 pkgbase = python-ovos-skill-fallback-unknown
-	pkgver = 0.0.3a2
+	pkgver = 0.0.3a3
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/skill-ovos-fallback-unknown
 	arch = any
 	license = custom:Apache-2.0
 	makedepends = python-pip
 	depends = python
-	noextract = ovos_skill_fallback_unknown-0.0.3a2-py3-none-any.whl
+	noextract = ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/bd/7f/ee8f617eb1c07556ab01c1f25d67a64aab1b824104eec7fc4976b85ffe7a/ovos_skill_fallback_unknown-0.0.3a2-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/56/62/4a71a4428929746b3d8431392849ae6d192dbb135f050467d9d9822714e6/ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 995ce32996446a75cf471b3c4ad0f6b3
+	md5sums = 1964ce0473dc96135599ddc6afed9474
 	md5sums = e3fc50a88d0a364313df4b21ef20c29e
 
 pkgname = python-ovos-skill-fallback-unknown

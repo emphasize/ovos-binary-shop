@@ -5,13 +5,13 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-skill-wikipedia-for-humans-git
 epoch=
-pkgver=0.2.2.r13.gae92058
+pkgver=0.2.2.r15.g8b0509f
 pkgrel=1
 pkgdesc='mycroft/ovos wikipedia skill plugin'
 arch=(any)
 url=https://github.com/OpenVoiceOS/skill-ovos-wikipedia
 license=(custom:Apache-2.0)
-depends=(python python-neon-solver-wikipedia-plugin python-neon-solvers python-ovos-utils python-ovos-workshop python-wikipedia-for-humans)
+depends=(python python-neon-solver-wikipedia-plugin python-ovos-utils python-ovos-workshop python-wikipedia-for-humans)
 depends+=(python-requests)
 makedepends=(python-pip python-wheel)
 checkdepends=()
