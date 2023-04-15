@@ -1,5 +1,5 @@
 pkgbase = python-ovos-phal
-	pkgver = 0.0.5a3
+	pkgver = 0.0.5a4
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/ovos-PHAL
 	arch = any
@@ -18,12 +18,12 @@ pkgbase = python-ovos-phal
 	depends = python-ovos-plugin-manager
 	depends = python-ovos-utils
 	depends = python-ovos-workshop
-	noextract = ovos_PHAL-0.0.5a3-py3-none-any.whl
+	noextract = ovos_PHAL-0.0.5a4-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/3b/d3/18a87a70a5f95320b099d527d4322b1ddaadb5d0e92235f4008b5085695e/ovos_PHAL-0.0.5a3-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/df/4e/4edd27620fedccc22ade0aa78981ff83974783930ef67d756874101ec1ac/ovos_PHAL-0.0.5a4-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 3958d27657e02778c9521040fb5383c8
+	md5sums = ca8437f14421ec4dac2d20330fc80f73
 	md5sums = f8e21961459543cbb99d684336cca043
 
 pkgname = python-ovos-phal

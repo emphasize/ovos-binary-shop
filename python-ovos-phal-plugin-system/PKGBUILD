@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-phal-plugin-system
 epoch=
-pkgver=0.0.4a1
+pkgver=0.0.4a2
 pkgrel=00
 pkgdesc='A plugin for OpenVoiceOS hardware abstraction layer'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/67/05/6eeb82e7e9e420aafe72786f92ceb6c52b2df958ac3e9da9e9f38506407e/ovos_PHAL_plugin_system-0.0.4a1-py3-none-any.whl)
-md5sums+=(80e308e68eb6502e2f9182fd349ed7a0)
-noextract+=(ovos_PHAL_plugin_system-0.0.4a1-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/1e/40/d7632bef11e5eff09475587cb65bed8ef48a1533c85e3e72e0dded16c4e1/ovos_PHAL_plugin_system-0.0.4a2-py3-none-any.whl)
+md5sums+=(770f97820376c2a4244bd75ed696e70f)
+noextract+=(ovos_PHAL_plugin_system-0.0.4a2-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(a5c534c0b0d5eb7b11a937c909109c2c)
 
