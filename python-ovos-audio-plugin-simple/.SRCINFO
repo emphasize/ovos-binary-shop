@@ -1,0 +1,20 @@
+pkgbase = python-ovos-audio-plugin-simple
+	pkgdesc = simple audio plugin for ovos
+	pkgver = 0.0.2a2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-audio-plugin-simple
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	noextract = ovos_audio_plugin_simple-0.0.2a2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/03/44/f440a3e94e0d82afac63422ad4eacd6feeec66b8f44daf84ffe980d64489/ovos_audio_plugin_simple-0.0.2a2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = d234541a8fbfda3741b8b811bf8fe2f1
+	md5sums = 045edd5501b7c33e6848b421aa2d9e1e
+
+pkgname = python-ovos-audio-plugin-simple

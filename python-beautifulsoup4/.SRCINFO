@@ -1,0 +1,20 @@
+pkgbase = python-beautifulsoup4
+	pkgdesc = Screen-scraping library
+	pkgver = 4.12.2
+	pkgrel = 00
+	url = https://pypi.org/project/beautifulsoup4/
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	depends = python
+	depends = python-soupsieve
+	depends = python-chardet
+	noextract = beautifulsoup4-4.12.2-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/57/f4/a69c20ee4f660081a7dedb1ac57f29be9378e04edfcb90c526b923d4bebc/beautifulsoup4-4.12.2-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 25b3ffb957a8b2b0c5762d6ec9498a5b
+	md5sums = 96e0034f7c9443910c486773aa1ed9ac
+
+pkgname = python-beautifulsoup4

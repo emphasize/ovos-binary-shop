@@ -1,0 +1,19 @@
+pkgbase = python-ovos-skill-installer
+	pkgdesc = Mycroft skill installer from .zip or .tar.gz urls
+	pkgver = 0.0.5
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos_skill_installer
+	arch = any
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-requests
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/c7/ea/92f5b41f1bb7e38ad6a56d3c0daa0610a7ec654e86ef1db3f52dc5c47907/ovos_skill_installer-0.0.5.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 8ca68934487474fd473bbc9f744a315b
+	md5sums = 46561b273d8f0a7e24ebc45f5c365332
+
+pkgname = python-ovos-skill-installer
