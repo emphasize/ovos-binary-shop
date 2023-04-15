@@ -1,6 +1,6 @@
 pkgbase = python-rich
 	pkgdesc = Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
-	pkgver = 13.3.3
+	pkgver = 13.3.4
 	pkgrel = 00
 	url = https://github.com/Textualize/rich
 	arch = any
@@ -11,12 +11,12 @@ pkgbase = python-rich
 	depends = python-pygments
 	depends = python-attrs
 	depends = python-typing_extensions
-	noextract = rich-13.3.3-py3-none-any.whl
+	noextract = rich-13.3.4-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/42/5c/f44fc88bad850c4a20711a3349ec0e8bc50fece8d8b32c962d2aab70ea2b/rich-13.3.3-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/9d/1a/28117ae737aec7c004ed5067034a8949adab43730420b50312821f466c3f/rich-13.3.4-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 4e91160f6332a524a1b3da7b7dfb40fc
+	md5sums = b9fb90b20a376c51faf39419b92cacb7
 	md5sums = b5f0b94fbc94f5ad9ae4efcf8a778303
 
 pkgname = python-rich

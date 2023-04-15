@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-plugin-manager
 epoch=
-pkgver=0.0.23a7
+pkgver=0.0.23a9
 pkgrel=00
 pkgdesc='OpenVoiceOS plugin manager'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/14/35/ba96b5ac78c2946de933885c2ecd0a691698ea8b552a7e10ab630ab441d7/ovos_plugin_manager-0.0.23a7-py3-none-any.whl)
-md5sums+=(38802467c9c9316c4e1ef8ce32a2d691)
-noextract+=(ovos_plugin_manager-0.0.23a7-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/5e/65/b0017fac3f49a008259f368eb7521910c7eb5c0e35a9936737679103ec24/ovos_plugin_manager-0.0.23a9-py3-none-any.whl)
+md5sums+=(0a41e467bc64758e86a3972e1f9c665a)
+noextract+=(ovos_plugin_manager-0.0.23a9-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(045edd5501b7c33e6848b421aa2d9e1e)
 

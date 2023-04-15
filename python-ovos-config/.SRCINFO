@@ -1,6 +1,6 @@
 pkgbase = python-ovos-config
 	pkgdesc = mycroft-core configuration module
-	pkgver = 0.0.8a3
+	pkgver = 0.0.8a4
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/ovos-config
 	arch = any
@@ -14,12 +14,12 @@ pkgbase = python-ovos-config
 	depends = python-yaml
 	depends = python-rich-click
 	depends = python-watchdog
-	noextract = ovos_config-0.0.8a3-py3-none-any.whl
+	noextract = ovos_config-0.0.8a4-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/be/cf/e4196d4d003d28957b16c47288486e58216cbdf6782077e28a9052cf5003/ovos_config-0.0.8a3-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/dc/57/c1b6609d7dae16368f64aab7c0fa85345465b0c423748c39ef4926ca7d96/ovos_config-0.0.8a4-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 013df07fb96ede6e228cee8e257ed31c
+	md5sums = d148fcf00df497fde9857dd32be821d6
 	md5sums = d58e539155262e617b64b12018014cf6
 
 pkgname = python-ovos-config

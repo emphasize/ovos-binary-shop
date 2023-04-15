@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-workshop
 epoch=
-pkgver=0.0.12a3
+pkgver=0.0.12a4
 pkgrel=00
 pkgdesc='frameworks, templates and patches for the mycroft universe'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/fe/6a/4c6dbd3fe3a6eff54be7a6d81e607ac1b4b11312eeb5f39e16e0320ecf52/ovos_workshop-0.0.12a3-py3-none-any.whl)
-md5sums+=(a2cd9cd7bbf3e1951294df045f38a42c)
-noextract+=(ovos_workshop-0.0.12a3-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/88/80/73c8bd25d6e4ad25a56a5439e58331954ca7435b58fedc7c9f6c9ee5f603/ovos_workshop-0.0.12a4-py3-none-any.whl)
+md5sums+=(b3cf56c112d9dd3ae295f0517f82ee10)
+noextract+=(ovos_workshop-0.0.12a4-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(045edd5501b7c33e6848b421aa2d9e1e)
 

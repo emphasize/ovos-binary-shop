@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-utils
 epoch=
-pkgver=0.0.31a7
+pkgver=0.0.31a16
 pkgrel=00
 pkgdesc='collection of simple utilities for use across the mycroft ecosystem'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/2b/90/0b46ecf3f66e5fce07df5004933f2b9424d5216d41069f0378d6eb039706/ovos_utils-0.0.31a7-py3-none-any.whl)
-md5sums+=(8580a48f588a43a6b2d40a61578e6bd0)
-noextract+=(ovos_utils-0.0.31a7-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/9f/93/236911c2b6e2719f23876056a5140e039f69115f9c5716cbc0a12d19d3ca/ovos_utils-0.0.31a16-py3-none-any.whl)
+md5sums+=(f5a112df09b2d6002ff99befd3ff7970)
+noextract+=(ovos_utils-0.0.31a16-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(b1e01b26bacfc2232046c90a330332b3)
 

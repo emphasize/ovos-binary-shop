@@ -1,6 +1,6 @@
 pkgbase = python-ovos-bus-client
 	pkgdesc = OVOS Messagebus Client
-	pkgver = 0.0.3a17
+	pkgver = 0.0.3a19
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/ovos-bus-client
 	arch = any
@@ -11,12 +11,12 @@ pkgbase = python-ovos-bus-client
 	depends = python-ovos-utils
 	depends = python-pyee
 	depends = python-websocket-client
-	noextract = ovos_bus_client-0.0.3a17-py3-none-any.whl
+	noextract = ovos_bus_client-0.0.3a19-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/33/78/970f01b857709fc1febf562c7e7b6b83cc4f4ba9b6cf0e48286b68187fb3/ovos_bus_client-0.0.3a17-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/19/92/3e3fff356f61effc101ae393a961da3096708d5775439bf1f0c99b51de49/ovos_bus_client-0.0.3a19-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 7050db3812770b97906e212826dbb105
+	md5sums = 9a25bf5e1715a8177820b2b688c376ae
 	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
 
 pkgname = python-ovos-bus-client

@@ -1,6 +1,6 @@
 pkgbase = python-ovos-core
 	pkgdesc = mycroft-core packaged as a library
-	pkgver = 0.0.8a2
+	pkgver = 0.0.8a4
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/ovos-core
 	arch = any
@@ -20,12 +20,12 @@ pkgbase = python-ovos-core
 	depends = python-requests
 	depends = python-watchdog
 	depends = python-setuptools
-	noextract = ovos_core-0.0.8a2-py3-none-any.whl
+	noextract = ovos_core-0.0.8a4-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/af/69/605491b205512b775249625b40436a23a95c05d6a1a3157fbedf4937f19a/ovos_core-0.0.8a2-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/0a/31/c823c566c61ff8fe2f003f4bf377c3fce9d9e3c3bd97f5ec9471f1d9d6ae/ovos_core-0.0.8a4-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 769f980dc897ed85a1d33e64e60e9d5b
+	md5sums = 0b959f4d890ae6e8729002b85988acc7
 	md5sums = 716a6805caa0b351a3f9443d428891e8
 
 pkgname = python-ovos-core
