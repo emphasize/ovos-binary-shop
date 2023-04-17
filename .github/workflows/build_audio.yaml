@@ -1,6 +1,5 @@
 name: OVOS audio PKGUILDS
 on:
-  push:
   workflow_dispatch:
 
 jobs:

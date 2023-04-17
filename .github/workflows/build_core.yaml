@@ -1,6 +1,5 @@
 name: OVOS core PKGUILDS
 on:
-  push:
   workflow_dispatch:
 
 jobs:

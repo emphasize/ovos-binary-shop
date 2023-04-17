@@ -1,6 +1,5 @@
 name: PHAL PKGUILDS
 on:
-  push:
   workflow_dispatch:
 
 jobs:

@@ -1,6 +1,5 @@
 name: OVOS listener PKGUILDS
 on:
-  push:
   workflow_dispatch:
 
 jobs:

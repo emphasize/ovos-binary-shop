@@ -1,6 +1,5 @@
 name: Skill PKGUILDS
 on:
-  push:
   workflow_dispatch:
 
 jobs:
