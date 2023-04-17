@@ -22,11 +22,17 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install beautifulsoup4
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pako
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pyaudio
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install webrtcvad
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pocketsphinx
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install petact
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install precise-runner
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install precise-lite-runner
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre tutubo
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install requests-cache
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps wallpaper-finder
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-skill-installer
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-audio-plugin-simple
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ww-plugin-vosk
 
       - uses: actions/checkout@v3
         with:
