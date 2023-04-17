@@ -77,6 +77,7 @@ python-ovos-ww-plugin-precise
 python-ovos-ww-plugin-vosk
 python-sonopy
 python-precise-lite-runner
+python-ovos-ww-plugin-precise-lite
 python-ovos-listener
 
 python-bitstruct
@@ -89,4 +90,17 @@ python-ovos-ocp-rss-plugin
 python-ovos-ocp-news-plugin
 python-ovos-tts-plugin-mimic3-server
 python-ovos-audio
+
+python-ovos-phal-plugin-color-scheme-manager
+python-ovos-phal-plugin-connectivity-events
+python-ovos-phal-plugin-ipgeo
+python-ovos-phal-plugin-network-manager
+python-ovos-phal-plugin-oauth
+python-ovos-phal-plugin-system
+python-bs4
+python-url-normalize
+python-requests-cache
+python-wallpaper-finder
+python-ovos-phal-plugin-wallpaper-manager
+python-ovos-phal
 ```
