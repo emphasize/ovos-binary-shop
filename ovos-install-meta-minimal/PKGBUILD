@@ -1,0 +1,8 @@
+pkgname=ovos-install-meta-minimal
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="OpenVoiceOS Meta Package Minimal"
+arch=('any')
+url='https://github.com/OpenVoiceOS'
+license=('Apache')
+depends=('python-ovos-core')
