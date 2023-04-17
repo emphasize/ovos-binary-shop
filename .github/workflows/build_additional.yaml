@@ -20,7 +20,6 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pprintpp
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install beautifulsoup4
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pako
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install vosk
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install pyaudio
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre tutubo
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install requests-cache
