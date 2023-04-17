@@ -10,8 +10,8 @@ jobs:
     steps:
       - name: Install build Dependencies
         run: |
-          echo "Y" | sudo pacman -Sy pkgfile namcap python-pip git portaudio
-          sudo pacman -S --noconfirm base-devel
+          echo "Y" | sudo pacman -Sy pkgfile namcap python-pip git
+          sudo pacman -S --noconfirm base-devel portaudio
           pip install pypi2pkgbuild
           pkgfile --update
       - name: gen PKGBUILDS
