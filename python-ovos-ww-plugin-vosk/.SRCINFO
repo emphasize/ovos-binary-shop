@@ -1,0 +1,22 @@
+pkgbase = python-ovos-ww-plugin-vosk
+	pkgdesc = Kaldi wake word plugin for mycroft
+	pkgver = 0.1.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ww-plugin-vosk
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-numpy
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-skill-installer
+	depends = python-vosk
+	noextract = ovos_ww_plugin_vosk-0.1.1-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/fa/23/7e579d10c8eab133eadc8607de8331b9e8e360acb3f5d75c3568ee49af43/ovos_ww_plugin_vosk-0.1.1-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 32b52f3f42e15dc2fe9cfcd955c04318
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-ww-plugin-vosk

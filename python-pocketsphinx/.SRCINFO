@@ -1,0 +1,20 @@
+pkgbase = python-pocketsphinx
+	pkgdesc = Official Python bindings for PocketSphinx
+	pkgver = 5.0.0
+	pkgrel = 00
+	url = https://github.com/cmusphinx/pocketsphinx
+	arch = x86_64
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = cython
+	depends = python
+	depends = python-sounddevice
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/96/b8/90c83b446e20b6d1449676a833c4b1be96a0839e25ee561417baaaa55755/pocketsphinx-5.0.0.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = e025aeedecbb0a40d00ba251c6b26184
+	md5sums = c4d720cdc9c6953091f65e8b01524bb4
+
+pkgname = python-pocketsphinx
