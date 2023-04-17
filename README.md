@@ -58,4 +58,24 @@ python-padacioso
 
 python-ovos-core
 python-ovos-gui
+
+python-ovos-stt-plugin-server
+python-ovos-skill-installer
+python-speechrecognition
+python-pyaudio
+python-srt
+python-vosk
+python-ovos-stt-plugin-vosk
+python-webrtcvad
+python-ovos-vad-plugin-webrtcvad
+python-pocketsphinx
+python-phoneme-guesser
+python-ovos-ww-plugin-pocketsphinx
+python-petact
+python-precise-runner
+python-ovos-ww-plugin-precise
+python-ovos-ww-plugin-vosk
+python-sonopy
+python-precise-lite-runner
+python-ovos-listener
 ```
