@@ -1,18 +1,18 @@
 pkgbase = python-soupsieve
 	pkgdesc = A modern CSS selector implementation for Beautiful Soup.
-	pkgver = 2.4
+	pkgver = 2.4.1
 	pkgrel = 00
 	url = https://pypi.org/project/soupsieve/
 	arch = any
 	license = MIT
 	makedepends = python-pip
 	depends = python
-	noextract = soupsieve-2.4-py3-none-any.whl
+	noextract = soupsieve-2.4.1-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/d2/70/2c92d7bc961ba43b7b21032b7622144de5f97dec14b62226533f6940798e/soupsieve-2.4-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/49/37/673d6490efc51ec46d198c75903d99de59baffdd47aea3d071b80a9e4e89/soupsieve-2.4.1-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = a355353d347aeaed8f07ddd2f15cdaef
+	md5sums = 6875248beccf372da7f1132dcb48a758
 	md5sums = 3ddc9ea27f7286b3d3de7cbf734ffd09
 
 pkgname = python-soupsieve

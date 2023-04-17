@@ -1,0 +1,21 @@
+pkgbase = python-pyaudio
+	pkgdesc = Cross-platform audio I/O with PortAudio
+	pkgver = 0.2.13
+	pkgrel = 00
+	url = https://people.csail.mit.edu/hubert/pyaudio/
+	arch = x86_64
+	license = MIT
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = portaudio
+	provides = python-pyaudio=0.2.13
+	conflicts = python-pyaudio
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/91/a0/f439da954d78a987298cb8d1ca1b141c53b1d1d1c7a50e17198ed061b9ac/PyAudio-0.2.13.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 41199ffd2abbdaf1ce6b88cf8af48cc5
+	md5sums = 7c3152b432b96d6dc4a1cb35397da9ec
+
+pkgname = python-pyaudio
