@@ -78,4 +78,15 @@ python-ovos-ww-plugin-vosk
 python-sonopy
 python-precise-lite-runner
 python-ovos-listener
+
+python-bitstruct
+python-pprintpp
+python-ovos-ocp-files-plugin
+python-ovos-audio-plugin-simple
+python-ovos-plugin-common-play
+python-ovos-ocp-m3u-plugin
+python-ovos-ocp-rss-plugin
+python-ovos-ocp-news-plugin
+python-ovos-tts-plugin-mimic3-server
+python-ovos-audio
 ```
