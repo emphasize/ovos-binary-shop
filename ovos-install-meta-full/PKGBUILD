@@ -5,4 +5,4 @@ pkgdesc="OpenVoiceOS Meta Package Full"
 arch=('any')
 url='https://github.com/OpenVoiceOS'
 license=('Apache')
-depends=('python-ovos-core', 'python-ovos-gui', 'python-ovos-listener', 'python-ovos-audio', 'python-ovos-phal')
+depends=('python-ovos-core' 'python-ovos-gui' 'python-ovos-listener' 'python-ovos-audio' 'python-ovos-phal')
