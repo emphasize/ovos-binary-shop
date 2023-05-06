@@ -1,6 +1,6 @@
 pkgbase = python-skill-wikipedia-for-humans-git
 	pkgdesc = mycroft/ovos wikipedia skill plugin
-	pkgver = 0.2.2.r15.g8b0509f
+	pkgver = 0.2.2.r16.g345b246
 	pkgrel = 1
 	url = https://github.com/OpenVoiceOS/skill-ovos-wikipedia
 	arch = any

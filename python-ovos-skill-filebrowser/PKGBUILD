@@ -5,13 +5,13 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-skill-filebrowser
 epoch=
-pkgver=0.0.3a1
+pkgver=0.0.3a2
 pkgrel=00
 pkgdesc='OVOS file browser skill plugin'
 arch=(any)
 url=https://github.com/OpenVoiceOS/skill-ovos-filebrowser
 license=(custom:Apache-2.0)
-depends=(python python-ovos-plugin-common-play python-ovos-utils python-ovos-workshop)
+depends=(python python-ovos-bus-client python-ovos-utils python-ovos-workshop)
 ## EXTRA_DEPENDS ##
 makedepends=(python-pip)
 checkdepends=()
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/1f/27/b428f45dded390157ee1134b093a883658e8db10dd12fc6a1b1309b996b1/ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl)
-md5sums+=(bf1da77e55d1f864164a8946944ca7e3)
-noextract+=(ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/05/04/8f9d5fb980d5fd34991893b2f7494dc40586eb747253ce45a126893d6779/ovos_skill_filebrowser-0.0.3a2-py3-none-any.whl)
+md5sums+=(83ad82460616a1d9a08106ddd13a0688)
+noextract+=(ovos_skill_filebrowser-0.0.3a2-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(86d3f3a95c324c9479bd8986968f4327)
 

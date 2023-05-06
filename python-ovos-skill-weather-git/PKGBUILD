@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-skill-weather-git
 epoch=
-pkgver=r397.6ba623d
+pkgver=V0.0.1a1.r0.gbcdec9d
 pkgrel=1
 pkgdesc='ovos skill plugin'
 arch=(any)

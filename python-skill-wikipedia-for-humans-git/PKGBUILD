@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-skill-wikipedia-for-humans-git
 epoch=
-pkgver=0.2.2.r15.g8b0509f
+pkgver=0.2.2.r16.g345b246
 pkgrel=1
 pkgdesc='mycroft/ovos wikipedia skill plugin'
 arch=(any)

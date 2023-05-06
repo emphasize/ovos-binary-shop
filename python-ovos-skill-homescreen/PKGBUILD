@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-skill-homescreen
 epoch=
-pkgver=0.0.2a11
+pkgver=0.0.2
 pkgrel=00
 pkgdesc='OVOS skill plugin'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/f7/cd/2d9d61fa7d091fb1ae4642b667028c1cfdc682feca9f835d1d6c05aaa9df/ovos_skill_homescreen-0.0.2a11-py3-none-any.whl)
-md5sums+=(42452217b812ac5f5224000757da775a)
-noextract+=(ovos_skill_homescreen-0.0.2a11-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/ee/9b/c3c44f16097a263b43855385fbc0b57675aec04cb329b0227cc5ed0f118a/ovos_skill_homescreen-0.0.2-py3-none-any.whl)
+md5sums+=(16aa5f4afc0ebf0a505149ee804a263d)
+noextract+=(ovos_skill_homescreen-0.0.2-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(86d3f3a95c324c9479bd8986968f4327)
 

@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-skill-hello-world
 epoch=
-pkgver=0.0.3
+pkgver=0.0.4a1
 pkgrel=00
 pkgdesc='OVOS hello world skill plugin'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/d5/90/f21d1a45f46fd9186269933dd78000982696836b81e5c7f89c161985a28f/ovos_skill_hello_world-0.0.3-py3-none-any.whl)
-md5sums+=(b1c172ac25fd3a7f3e7a56e777545a21)
-noextract+=(ovos_skill_hello_world-0.0.3-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/d0/44/a691f0f766517465614bd8270ac544170915768ef89bbb10428c538a9da9/ovos_skill_hello_world-0.0.4a1-py3-none-any.whl)
+md5sums+=(3596120b0eb1e6b26c19e4ea7c0d13ce)
+noextract+=(ovos_skill_hello_world-0.0.4a1-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(86d3f3a95c324c9479bd8986968f4327)
 

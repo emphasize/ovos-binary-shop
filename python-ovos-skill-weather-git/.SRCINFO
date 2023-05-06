@@ -1,6 +1,6 @@
 pkgbase = python-ovos-skill-weather-git
 	pkgdesc = ovos skill plugin
-	pkgver = r397.6ba623d
+	pkgver = V0.0.1a1.r0.gbcdec9d
 	pkgrel = 1
 	url = https://github.com/OpenVoiceOS/skill-ovos-weather
 	arch = any

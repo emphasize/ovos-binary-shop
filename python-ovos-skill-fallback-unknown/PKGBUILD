@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-skill-fallback-unknown
 epoch=
-pkgver=0.0.3a3
+pkgver=0.0.3
 pkgrel=00
 pkgdesc=''
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/56/62/4a71a4428929746b3d8431392849ae6d192dbb135f050467d9d9822714e6/ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl)
-md5sums+=(1964ce0473dc96135599ddc6afed9474)
-noextract+=(ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/27/d6/ab43a66faccb43f9e1e1f486544c2f161344d48b2957b8f4799c3039dc59/ovos_skill_fallback_unknown-0.0.3-py3-none-any.whl)
+md5sums+=(c97aac911559a402afc808b184784570)
+noextract+=(ovos_skill_fallback_unknown-0.0.3-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(e3fc50a88d0a364313df4b21ef20c29e)
 

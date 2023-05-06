@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-neon-skill-alerts
 epoch=
-pkgver=1.4.1a2
+pkgver=1.5.0
 pkgrel=00
 pkgdesc=''
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/87/c0/d210de18b2305d8200748d51cfc523bb31a00701e84bc573b73d2f6cc48f/neon_skill_alerts-1.4.1a2-py3-none-any.whl)
-md5sums+=(77f60e6bcafa8edf4321fc4aec3bc0a6)
-noextract+=(neon_skill_alerts-1.4.1a2-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/a4/e8/b646d528d2c4f71add183024f25fca7e90bc4d0ece5ef01ccac44ea214c7/neon_skill_alerts-1.5.0-py3-none-any.whl)
+md5sums+=(7e566d3acf19ed4fa7927d919846e9f5)
+noextract+=(neon_skill_alerts-1.5.0-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(714c92f4075241d2f6a58035f06fc164)
 
