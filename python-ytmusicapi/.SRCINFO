@@ -1,6 +1,6 @@
 pkgbase = python-ytmusicapi
 	pkgdesc = Unofficial API for YouTube Music
-	pkgver = 1.0.0
+	pkgver = 1.0.2
 	pkgrel = 00
 	url = https://pypi.org/project/ytmusicapi/
 	arch = any
@@ -8,12 +8,12 @@ pkgbase = python-ytmusicapi
 	makedepends = python-pip
 	depends = python
 	depends = python-requests
-	noextract = ytmusicapi-1.0.0-py3-none-any.whl
+	noextract = ytmusicapi-1.0.2-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/0a/74/fee0f00aa3205662c12bf216f609b713ed015695476c60416127871d476c/ytmusicapi-1.0.0-py3-none-any.whl
+	source = https://files.pythonhosted.org/packages/7c/b9/1c22b64ad3c4390ddb5cd95f9c875405a3b591eae35bfd3f9d56a354617e/ytmusicapi-1.0.2-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = 127fc5e7e943dc0033ef8c81be9b1229
+	md5sums = 00cb83d0df049424ffcb5c9338081f1d
 	md5sums = b2983e612518f1c2e8ea55d1bb3bd47f
 
 pkgname = python-ytmusicapi
