@@ -15,8 +15,8 @@ jobs:
           pkgfile --update
       - name: gen PKGBUILDS
         run: |
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-listener
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos-dinkum-listener
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre --no-deps ovos-listener
+          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre --no-deps ovos-dinkum-listener
       - uses: actions/checkout@v3
         with:
           ref: dev
