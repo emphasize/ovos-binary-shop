@@ -5,14 +5,14 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-listener
 epoch=
-pkgver=0.0.2a6
+pkgver=0.0.2a10
 pkgrel=00
 pkgdesc='ovos-core listener daemon client'
 arch=(any)
 url=https://github.com/OpenVoiceOS/ovos-listener
 license=(Apache)
 depends=(python python-ovos-backend-client python-ovos-bus-client python-ovos-config python-ovos-plugin-manager python-ovos-stt-plugin-server python-ovos-stt-plugin-vosk python-ovos-utils python-ovos-vad-plugin-webrtcvad python-ovos-ww-plugin-pocketsphinx python-ovos-ww-plugin-precise python-ovos-ww-plugin-precise-lite python-ovos-ww-plugin-vosk python-pyaudio python-speechrecognition)
-## EXTRA_DEPENDS ##
+depends+=(python-requests)
 makedepends=(python-pip)
 checkdepends=()
 provides=()
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/5d/1b/d6a4ca1947c009df5b68fd309e770c0fb23796bd960a43620d2f147389b2/ovos_listener-0.0.2a6-py3-none-any.whl)
-md5sums+=(a30581aba038fb37a4b36f8ec950d0e1)
-noextract+=(ovos_listener-0.0.2a6-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/df/b3/9645d0409868685fc4524875b582444b6f8d5a0265bd313e434f56c13f19/ovos_listener-0.0.2a10-py3-none-any.whl)
+md5sums+=(38e6618891227741148bdb0c51a359d3)
+noextract+=(ovos_listener-0.0.2a10-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(a5c534c0b0d5eb7b11a937c909109c2c)
 

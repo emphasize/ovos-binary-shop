@@ -5,13 +5,13 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-dinkum-listener
 epoch=
-pkgver=0.0.2a2
+pkgver=0.0.2a12
 pkgrel=00
 pkgdesc='ovos-core listener daemon client'
 arch=(any)
 url=https://github.com/OpenVoiceOS/ovos-dinkum-listener
 license=(Apache)
-depends=(python python-ovos-bus-client python-ovos-plugin-manager python-ovos-utils python-pyalsaaudio python-sdnotify)
+depends=(python python-ovos-backend-client python-ovos-bus-client python-ovos-plugin-manager python-ovos-utils python-pyalsaaudio python-sdnotify python-speechrecognition)
 ## EXTRA_DEPENDS ##
 makedepends=(python-pip)
 checkdepends=()
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/20/22/54ccf374209c26f396caed7560e3bedb0c244bdad5879a461871a8ea9858/ovos_dinkum_listener-0.0.2a2-py3-none-any.whl)
-md5sums+=(219a23b52a17835315d6faf78395d6c3)
-noextract+=(ovos_dinkum_listener-0.0.2a2-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/b8/73/aabb3486f79546610e68cb3d0b89cd457a8b4024cfde95b185550e79208f/ovos_dinkum_listener-0.0.2a12-py3-none-any.whl)
+md5sums+=(8f354df5051996277aca953bb9c8f53d)
+noextract+=(ovos_dinkum_listener-0.0.2a12-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(a5c534c0b0d5eb7b11a937c909109c2c)
 
