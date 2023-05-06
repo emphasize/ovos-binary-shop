@@ -20,7 +20,6 @@ jobs:
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos_plugin_mplayer
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --pre ovos_plugin_common_play
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-youtube-plugin
-          sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-m3u-plugin
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-rss-plugin
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-files-plugin
           sudo -u nobody pypi2pkgbuild.py --base-path /tmp/build --force --no-install --no-deps --pre ovos-ocp-news-plugin
