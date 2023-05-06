@@ -1,0 +1,24 @@
+pkgbase = python-ovos-stt-plugin-whisper-tflite-git
+	pkgdesc = A stt plugin for ovos using whisper + tflite
+	pkgver = r2.c342084
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-whisper-tflite
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-openai-whisper
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	provides = python-ovos-stt-plugin-whisper-tflite
+	conflicts = python-ovos-stt-plugin-whisper-tflite
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/ovos-stt-plugin-whisper-tflite
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-whisper-tflite-git

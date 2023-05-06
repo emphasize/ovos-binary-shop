@@ -1,0 +1,20 @@
+pkgbase = python-ovos-tts-plugin-espeakng
+	pkgdesc = espeakNG tts plugin for mycroft
+	pkgver = 0.0.2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-espeakNG
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-phoneme-guesser
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/26/57/35530b3577741de346b62d60b30401ecfe86ddc680309a011e2e3cf350ea/ovos_tts_plugin_espeakng-0.0.2.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 56e632790a7aa20ba57e40a6d8db4977
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-espeakng

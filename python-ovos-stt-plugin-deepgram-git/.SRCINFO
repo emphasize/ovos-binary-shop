@@ -1,0 +1,22 @@
+pkgbase = python-ovos-stt-plugin-deepgram-git
+	pkgdesc = A stt plugin for ovos using deepgram
+	pkgver = r2.e064ed1
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-deepgram
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-manager
+	provides = python-ovos-stt-plugin-deepgram
+	conflicts = python-ovos-stt-plugin-deepgram
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/ovos-stt-plugin-deepgram
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-deepgram-git

@@ -1,0 +1,21 @@
+pkgbase = python-ovos-stt-plugin-pocketsphinx
+	pkgdesc = A pocketsphinx stt plugin for mycroft
+	pkgver = 0.1.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-pocketsphinx
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-pocketsphinx
+	depends = python-speechrecognition
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/10/1a/b4ca85ff82227dd91cc6bf5029433014cfa42d60206547bc6667df83720c/ovos-stt-plugin-pocketsphinx-0.1.1.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = db01e06aef9d6fc2d1a673071920265b
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-pocketsphinx

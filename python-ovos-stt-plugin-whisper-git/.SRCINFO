@@ -1,0 +1,22 @@
+pkgbase = python-ovos-stt-plugin-whisper-git
+	pkgdesc = A stt plugin for ovos using whisper
+	pkgver = r3.4bcc651
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-whisper
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-manager
+	provides = python-ovos-stt-plugin-whisper
+	conflicts = python-ovos-stt-plugin-whisper
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/ovos-stt-plugin-whisper
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-whisper-git

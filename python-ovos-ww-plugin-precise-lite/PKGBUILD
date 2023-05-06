@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-ww-plugin-precise-lite
 epoch=
-pkgver=0.1.2a3
+pkgver=0.1.2a4
 pkgrel=00
 pkgdesc='A wake word plugin for OpenVoiceOS'
 arch=(any)
@@ -20,9 +20,9 @@ conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/f5/32/0955dab034459035f14343d78cf7c03517449209a8b8dfa9a2604937cf76/ovos_ww_plugin_precise_lite-0.1.2a3-py3-none-any.whl)
-md5sums+=(2c66df4ac48ff939ee64b6d3ddaed0b5)
-noextract+=(ovos_ww_plugin_precise_lite-0.1.2a3-py3-none-any.whl)
+source+=(https://files.pythonhosted.org/packages/50/e4/d5d27725ffb3f14cc2981cf7728527be8417485276520ebdd6eb7e9779e1/ovos_ww_plugin_precise_lite-0.1.2a4-py3-none-any.whl)
+md5sums+=(648131b8bad7ebe2ca8f5dcaf357614b)
+noextract+=(ovos_ww_plugin_precise_lite-0.1.2a4-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(045edd5501b7c33e6848b421aa2d9e1e)
 

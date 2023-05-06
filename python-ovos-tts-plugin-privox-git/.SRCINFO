@@ -1,0 +1,23 @@
+pkgbase = python-ovos-tts-plugin-privox-git
+	pkgdesc = A tts plugin for ovos using privox
+	pkgver = V0.0.2.r2.ge4ddba5
+	pkgrel = 1
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-privox
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	makedepends = git
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	provides = python-ovos-tts-plugin-privox
+	conflicts = python-ovos-tts-plugin-privox
+	source = PKGBUILD_EXTRAS
+	source = git+https://github.com/OpenVoiceOS/ovos-tts-plugin-privox
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = eb1e647870add0502f8f010b19de32af
+
+pkgname = python-ovos-tts-plugin-privox-git

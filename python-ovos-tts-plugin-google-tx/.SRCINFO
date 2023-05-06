@@ -1,0 +1,20 @@
+pkgbase = python-ovos-tts-plugin-google-tx
+	pkgdesc = google translate tts plugin for OVOS
+	pkgver = 0.0.4a3
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-google-tx
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-gtts
+	depends = python-ovos-plugin-manager
+	noextract = ovos_tts_plugin_google_tx-0.0.4a3-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/e8/cd/ec5d8aad6766c415f9d94ed65932b2f047fda9e9955e62b03cd9bee2e507/ovos_tts_plugin_google_tx-0.0.4a3-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 95dd77a2e96c1fe8ff30c26077ca4c1d
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-google-tx

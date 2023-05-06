@@ -1,0 +1,19 @@
+pkgbase = python-ovos-tts-plugin-pico
+	pkgdesc = pico tts plugin for mycroft
+	pkgver = 0.0.4a2
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-pico
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-ovos-plugin-manager
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/32/33/f0d0160c259e1cd53e73e2ce2807cee05959e8718b39e158b8fc66b7ec98/ovos-tts-plugin-pico-0.0.4a2.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 3c8736dc1bba730444435db3ebdf085e
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-pico

@@ -1,0 +1,20 @@
+pkgbase = python-ovos-tts-plugin-polly
+	pkgdesc = polly tts plugin for OpenVoiceOS mycroft neon chatterbox
+	pkgver = 0.0.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-polly
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-boto3
+	depends = python-ovos-plugin-manager
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/72/55/084b6e69877a2977a83447f4327a2e88c782d81f3d6521e3e7154b359476/ovos-tts-plugin-polly-0.0.1.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = cda1c04e5ebc6448f93ca63e0a5b8e1f
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-polly

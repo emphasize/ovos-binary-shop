@@ -5,7 +5,7 @@ export PIP_DISABLE_PIP_VERSION_CHECK=true
 
 pkgname=python-ovos-stt-plugin-server
 epoch=
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=00
 pkgdesc='ovos stt server plugin for mycroft'
 arch=(any)
@@ -13,15 +13,16 @@ url=https://github.com/OpenVoiceOS/ovos-stt-server-plugin
 license=(Apache)
 depends=(python python-ovos-plugin-manager)
 depends+=(python-requests)
-makedepends=(python-pip python-wheel)
+makedepends=(python-pip)
 checkdepends=()
 provides=()
 conflicts=(${provides%=*})  # No quotes, to avoid an empty entry.
 source=(PKGBUILD_EXTRAS)
 md5sums=(SKIP)
 noextract=()
-source+=(https://files.pythonhosted.org/packages/f1/5f/3fdc83de6697b0270af54a50ee8aacdda161cbf58d446d3170835fd6960a/ovos-stt-plugin-server-0.0.2.tar.gz)
-md5sums+=(d65a0cd8cff30153459ecabd27c88805)
+source+=(https://files.pythonhosted.org/packages/e6/a2/22f596d88fab60af615e36d9ab83d9b40d3fa404c2b316ee29db4acfd64c/ovos_stt_plugin_server-0.0.3-py3-none-any.whl)
+md5sums+=(e985a0f3e8267cf40f27864068d54bd6)
+noextract+=(ovos_stt_plugin_server-0.0.3-py3-none-any.whl)
 source+=(LICENSE)
 md5sums+=(2644f1f36ac061d40119a3c38d6081bd)
 

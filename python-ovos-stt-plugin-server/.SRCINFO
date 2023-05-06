@@ -1,20 +1,20 @@
 pkgbase = python-ovos-stt-plugin-server
 	pkgdesc = ovos stt server plugin for mycroft
-	pkgver = 0.0.2
+	pkgver = 0.0.3
 	pkgrel = 00
 	url = https://github.com/OpenVoiceOS/ovos-stt-server-plugin
 	arch = any
 	license = Apache
 	makedepends = python-pip
-	makedepends = python-wheel
 	depends = python
 	depends = python-ovos-plugin-manager
 	depends = python-requests
+	noextract = ovos_stt_plugin_server-0.0.3-py3-none-any.whl
 	source = PKGBUILD_EXTRAS
-	source = https://files.pythonhosted.org/packages/f1/5f/3fdc83de6697b0270af54a50ee8aacdda161cbf58d446d3170835fd6960a/ovos-stt-plugin-server-0.0.2.tar.gz
+	source = https://files.pythonhosted.org/packages/e6/a2/22f596d88fab60af615e36d9ab83d9b40d3fa404c2b316ee29db4acfd64c/ovos_stt_plugin_server-0.0.3-py3-none-any.whl
 	source = LICENSE
 	md5sums = SKIP
-	md5sums = d65a0cd8cff30153459ecabd27c88805
+	md5sums = e985a0f3e8267cf40f27864068d54bd6
 	md5sums = 2644f1f36ac061d40119a3c38d6081bd
 
 pkgname = python-ovos-stt-plugin-server

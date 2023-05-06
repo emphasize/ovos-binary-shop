@@ -1,0 +1,22 @@
+pkgbase = python-ovos-stt-plugin-whispercpp
+	pkgdesc = A whispercpp stt plugin for mycroft
+	pkgver = 0.0.0a8
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-whispercpp
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-pywhispercpp
+	depends = python-requests
+	depends = python-speechrecognition
+	noextract = ovos_stt_plugin_whispercpp-0.0.0a8-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/de/af/0857b8055728a6cb0c0344fca553921e15a2e2eba1e9a61892b9c194c6d3/ovos_stt_plugin_whispercpp-0.0.0a8-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = c45b2e117a94e52fc5e9c371401dce5f
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-whispercpp

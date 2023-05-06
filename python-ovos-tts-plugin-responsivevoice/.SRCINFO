@@ -1,0 +1,21 @@
+pkgbase = python-ovos-tts-plugin-responsivevoice
+	pkgdesc = ResponsiveVoice tts plugin for mycroft
+	pkgver = 0.1.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-responsivevoice
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	depends = python-responsivevoice
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/cf/b7/c729052d3c0a0203b52491c9297bf19bc5e72f1717bf4d561c7abf628995/ovos-tts-plugin-responsivevoice-0.1.1.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 61626780922db62d130f19f034ec3f34
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-responsivevoice

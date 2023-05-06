@@ -1,0 +1,22 @@
+pkgbase = python-ovos-stt-plugin-selene
+	pkgdesc = A stt plugin for mycroft using the mycroft selene backend services
+	pkgver = 0.0.3
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-stt-plugin-selene
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	depends = python
+	depends = python-ovos-backend-client
+	depends = python-ovos-plugin-manager
+	depends = python-ovos-utils
+	depends = python-requests
+	noextract = ovos_stt_plugin_selene-0.0.3-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/4d/49/ff6755566d68c5162255d5abaf67e40293633af1904b1b6fc974e5fcb3f9/ovos_stt_plugin_selene-0.0.3-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 267f9317428e5eabbba871435acb7e74
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-stt-plugin-selene

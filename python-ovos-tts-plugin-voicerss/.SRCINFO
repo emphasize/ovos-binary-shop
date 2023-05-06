@@ -1,0 +1,20 @@
+pkgbase = python-ovos-tts-plugin-voicerss
+	pkgdesc = A voiceRSS tts plugin for mycroft
+	pkgver = 0.1.1
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-tts-plugin-voicerss
+	arch = any
+	license = Apache
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	depends = python-ovos-plugin-manager
+	depends = python-requests
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/8d/63/58618903a249b37e239f19ca9cb24029e57f917ee1252bbf680ab0eb2f3f/ovos-tts-plugin-voicerss-0.1.1.tar.gz
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = 68de90c14167e09adf81cdb9d95cabde
+	md5sums = a5c534c0b0d5eb7b11a937c909109c2c
+
+pkgname = python-ovos-tts-plugin-voicerss

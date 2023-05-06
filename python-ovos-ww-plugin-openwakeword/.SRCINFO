@@ -1,0 +1,19 @@
+pkgbase = python-ovos-ww-plugin-openwakeword
+	pkgdesc = A wakeword plugin for OpenVoiceOS for the openWakeWord library
+	pkgver = 0.2.0
+	pkgrel = 00
+	url = https://github.com/OpenVoiceOS/ovos-ww-plugin-openwakeword
+	arch = any
+	license = custom:Apache-2.0
+	makedepends = python-pip
+	depends = python
+	depends = python-openwakeword
+	noextract = ovos_ww_plugin_openwakeword-0.2.0-py3-none-any.whl
+	source = PKGBUILD_EXTRAS
+	source = https://files.pythonhosted.org/packages/df/bb/b688f98db9b071fdcfaf287959b02adf94adb5501805f16baca14b289a84/ovos_ww_plugin_openwakeword-0.2.0-py3-none-any.whl
+	source = LICENSE
+	md5sums = SKIP
+	md5sums = ba5e1dd470e91e50c762e568de9d5cf3
+	md5sums = 045edd5501b7c33e6848b421aa2d9e1e
+
+pkgname = python-ovos-ww-plugin-openwakeword
