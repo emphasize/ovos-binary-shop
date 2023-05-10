@@ -1,0 +1,17 @@
+post_install() {
+   UGROUP="$(id -g $SUDO_USER)"
+   install -d -m 755 "/home/$SUDO_USER/.config/fontconfig"
+   install -v -t "/home/$SUDO_USER/.config/fontconfig" -m 644 -o "$SUDO_USER" -g "$UGROUP" /tmp/gui-overlay/fonts.conf
+   install -d -m 755 "/home/$SUDO_USER/.config/OpenVoiceOS"
+   install -v -t "/home/$SUDO_USER/.config/OpenVoiceOS" -m 644 -o "$SUDO_USER" -g "$UGROUP" /tmp/gui-overlay/OvosShell.conf
+   install -d -m 755 "/home/$SUDO_USER/.config/qt5ct"
+   install -v -t "/home/$SUDO_USER/.config/qt5ct" -m 644 -o "$SUDO_USER" -g "$UGROUP" /tmp/gui-overlay/qt5ct.conf
+   install -v -t "/home/$SUDO_USER/.config" -m 644 -o "$SUDO_USER" -g "$UGROUP" /tmp/gui-overlay/OvosDisplay.conf
+   install -v -t "/home/$SUDO_USER/.config" -m 644 -o "$SUDO_USER" -g "$UGROUP" /tmp/gui-overlay/qtquickcontrols2material.conf
+   rm -rf /tmp/gui-overlay
+
+   systemctl daemon-reload
+   systemctl enable ovos
+   systemctl enable ovos-gui
+   systemctl enable ovos-enclosure-gui
+}

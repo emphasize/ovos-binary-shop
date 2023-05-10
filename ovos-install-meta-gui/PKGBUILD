@@ -1,0 +1,32 @@
+pkgname=ovos-install-meta-gui
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="OpenVoiceOS Meta Package GUI"
+arch=('any')
+url='https://github.com/OpenVoiceOS'
+license=('Apache')
+depends=('python-ovos-gui' 'ovos-shell-git' 'kirigami2' 'kirigami-addons' 'qt5-virtualkeyboard' 'qt5-location' 'qt5-graphicaleffects' 'qt5-networkauth' 'qt5-svg' 'qt5-tools'
+         'qt5-xmlpatterns' 'libpulse' 'plasma-nm' 'plasma-pa' 'qt5ct' 'gstreamer' 'gst-plugins-base' 'gst-plugins-good' 'gst-plugins-bad' 'gst-plugins-ugly' 'gst-plugin-va'
+         'qt5-script' 'libva' 'libva-utils' 'ffmpeg' 'qmltermwidget' 'kdeconnect')
+source=('xdg_OvosDisplay.conf' 'OvosTheme' 'ovos-enclosure-gui.service' 'ovos-gui.service' 'ovos.service' 'ovos-systemd_gui.py' 'fonts.conf' 'OvosShell.conf' 'qt5ct.conf' 'OvosDisplay.conf' 'qtquickcontrols2material.conf')
+md5sums=(SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP SKIP)
+install=$pkgname.install
+
+package(){
+   cd ${srcdir}
+
+   install -v -d -m 755 "${pkgdir}/etc/xdg/"
+   install -v -m 644 --no-target-directory xdg_OvosDisplay.conf "${pkgdir}/etc/xdg/OvosDisplay.conf"
+   install -v -t "${pkgdir}/etc/xdg" -m 644 OvosTheme
+   install -v -d -m 755 "${pkgdir}/usr/lib/systemd/system"
+   install -v -t "${pkgdir}/usr/lib/systemd/system" -m 644 ovos-enclosure-gui.service
+   install -v -t "${pkgdir}/usr/lib/systemd/system" -m 644 ovos-gui.service
+   install -v -t "${pkgdir}/usr/lib/systemd/system" -m 644 ovos.service
+   install -d -m 1777 "${pkgdir}/tmp/gui-overlay/"
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 644 fonts.conf
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 644 OvosShell.conf
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 644 qt5ct.conf
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 644 OvosDisplay.conf
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 644 qtquickcontrols2material.conf
+   install -v -t "${pkgdir}/tmp/gui-overlay/" -m 755 ovos-systemd_gui.py
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenVoiceOS Software stack.
+After=pulseaudio.service NetworkManager.service
+
+[Service]
+User=1000
+WorkingDirectory=~
+Type=oneshot
+ExecStart=/bin/true
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
